@@ -45,7 +45,7 @@
 .appbar_logo p {
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #f96a8b;
+  color: #ff0101;
   margin-left: 12px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .appbar_avatar svg {
-  color: #99979e;
+  color: #ffffff;
   font-size: 1.5rem;
   margin-left: 10px;
   cursor: pointer;

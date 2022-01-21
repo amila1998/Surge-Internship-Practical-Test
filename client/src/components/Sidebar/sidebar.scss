@@ -45,12 +45,12 @@
     }
     li:nth-child(3) {
       svg {
-        color: $pink;
+        color: $red;
       }
     }
     li:hover:nth-child(3) {
       p {
-        color: $pink;
+        color: $red;
         transition: all 0.3s ease-in;
       }
     }

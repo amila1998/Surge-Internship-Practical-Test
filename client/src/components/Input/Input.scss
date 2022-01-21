@@ -30,12 +30,12 @@
       transform: translate3d(0, -6px, 0) scale(0.75);
     }
     input:focus {
-      border: 2px solid $pink;
+      border: 2px solid $red;
     }
     input:focus + span {
       top: -15px;
       font-size: 10px;
-      background: linear-gradient(to right, $yellow, $pink);
+      background: linear-gradient(to right, $yellow, $red);
       border-radius: 4px;
       padding: 0 5px;
       color: #fff;
@@ -52,7 +52,7 @@
   }
 }
 .toast-failed {
-  background: $pink !important;
+  background: $red !important;
   color: #fff;
 }
 .toast-success {

@@ -10,7 +10,7 @@ const ResetLayout = ({ history }) => {
     <div className="authlayout">
       {/* logo */}
       <div className="authlayout_logo">
-        <img src="../../assets/img/surge.jpg" alt="logo" />
+        <img src="../../assets/img/logo.jpg" alt="logo" />
       </div>
       {/* form */}
       <Reset />

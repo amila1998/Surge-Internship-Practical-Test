@@ -8,8 +8,8 @@ const Appbar = ({ handleSidebar }) => {
       <div className="appbar_wrapper">
         {/* logo */}
         <div className="appbar_logo">
-          <img src="./assets/img/surge.jpg" alt="logo" />
-          <p>mernauth</p>
+          <img src="./assets/img/logo.jpg" alt="logo" />
+          <p>Surge Internship - Practical Test</p>
         </div>
         {/* avatar */}
         <div className="appbar_avatar">

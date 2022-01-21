@@ -14,7 +14,7 @@
     color: #fff;
     cursor: pointer;
     outline: none;
-    background: linear-gradient(to right, $yellow, $pink);
+    background: linear-gradient(to right, $yellow, $red);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,15 +26,15 @@
   button:hover {
     transition: all 0.3s ease;
     box-shadow: none;
-    background: linear-gradient(to left, $yellow, $pink);
+    background: linear-gradient(to left, $yellow, $red);
   }
   .btn-alt {
-    background: linear-gradient(to left, $yellow, $pink);
+    background: linear-gradient(to left, $yellow, $red);
   }
   .btn-alt:hover {
     transition: all 0.3s ease;
     box-shadow: none;
-    background: linear-gradient(to right, $yellow, $pink);
+    background: linear-gradient(to right, $yellow, $red);
   }
 }
 @include for-desktop {
