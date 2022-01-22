@@ -137,6 +137,7 @@ Also there is a error alerts and successfull alerts<br/>
     npm start
     ```
 
+<h2 color="red">If any error occurs in the Backend like an email doesn't send, Make sure to do disable your Firewall and network protection</h2>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
