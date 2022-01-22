@@ -1,11 +1,11 @@
-FROM node:14-slim
+FROM node:14.16.0-alpine3.10
 
-WORKDIR /app
+WORKDIR /usr/app
 
-COPY ./package.json ./
+COPY package*.json ./
+RUN npm install -qyg react-router-dom@5.2.0
+RUN npm install -qy
 
 COPY . .
-
-EXPOSE 3000
-
-CMD ["npm" "start"]
+# Run the "dev" script in package.json
+CMD ["npm", "start"]
