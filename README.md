@@ -58,10 +58,10 @@ When the user login to the system, he or she can update Avatar, name, and passwo
     ```
 
 4. create a  .env file inside the server folder
-      ### [cloudinary.com](https://cloudinary.com/)
-      ### [oauthplayground](https://developers.google.com/oauthplayground/)
-      ### [console.cloud.google.com](https://console.cloud.google.com/)
-      ### [cloud.mongodb.com](https://cloud.mongodb.com/)
+       [cloudinary.com](https://cloudinary.com/)
+       [oauthplayground](https://developers.google.com/oauthplayground/)
+       [console.cloud.google.com](https://console.cloud.google.com/)
+       [cloud.mongodb.com](https://cloud.mongodb.com/)
   
 
   * .env
