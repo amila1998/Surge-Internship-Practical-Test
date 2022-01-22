@@ -50,8 +50,9 @@ Also there is a error alerts and successfull alerts<br/>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Folder Structure
-<img src="https://res.cloudinary.com/amiladevin1998/image/upload/v1642837965/read%20me/Capture_vboy8n.png" align="center" alt="FolderStructure">
-
+<div align="center">
+<img src="https://res.cloudinary.com/amiladevin1998/image/upload/v1642838760/read%20me/Untitled_omhry6.png" alt="FolderStructure">
+</div>
 
 ### Built With
 
