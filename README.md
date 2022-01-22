@@ -51,20 +51,37 @@ When the user login to the system, he or she can update Avatar, name, and passwo
     npx create-react-app project_name
     ```
 3. Install the Dependencies to the Frontend
- 
-   ```sh
-    npm install react-router-dom@5.2.0 react-icons react-toastify 
+
+ * npm
+    ```sh
+    npm install react-router-dom@5.2.0 react-icons react-toastify axios
     ```
 
-5. 
+4. Install the Dependencies to the Backend
 
+* cd
+    ```sh
+    cd server
+    ```
+* npm
+    ```sh
+    npm i express nodemon concurrently mongoose dotenv bcryptjs jsonwebtoken nodemailer googleapis cookie-parser multer cloudinary
+    ```
+5. To run the Backend
 
+* npm
+    ```sh
+    npm run dev
+    ```
+    
+6. To run the Fronend
 
+* npm
+    ```sh
+    npm start
+    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 
 
 <!-- CONTACT -->
