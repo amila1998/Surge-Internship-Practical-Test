@@ -51,18 +51,11 @@ When the user login to the system, he or she can update Avatar, name, and passwo
     npx create-react-app project_name
     ```
 3. Install the Dependencies to the Frontend
-  * react-router-dom
+ 
    ```sh
-    npm install react-router-dom@5.2.0 
+    npm install react-router-dom@5.2.0 react-icons react-toastify 
     ```
-   * react-icons
-   ```sh
-    npm install react-icons 
-    ```
-    * react-toastify
-   ```sh
-    npm install react-toastify 
-    ```
+
 5. 
 
 
