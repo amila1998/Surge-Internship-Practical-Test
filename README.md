@@ -13,9 +13,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This is an internship Assignment at [Surge Global](https://surge.global/).
+This web application includes User registration, User Login, User Logout, Forgot Password, Reset Password, user Profile Update, and Logout functions.
+When the user must be a registered user to the login into the system. If is an unregistered user, he or she should create an account click on the register button. After the registration, the system sends a link via email to activate the account. After the activation process user can log in to the system. Unfortunately, user forgot the password he or she can click on the forgot password button then the system requires the user's email. after being given the email by the user, the system sends an email for the reset password option, and then he or she can reset the password without login into the system. 
 
+When the user login to the system, he or she can update Avatar, name, and password. Also, users can log out from the system.
 
-
+<br /><br />
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
