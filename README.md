@@ -57,7 +57,29 @@ When the user login to the system, he or she can update Avatar, name, and passwo
     npm install react-router-dom@5.2.0 react-icons react-toastify axios
     ```
 
-4. Install the Dependencies to the Backend
+4. create a  .env file inside the server folder
+      ### [cloudinary.com](https://cloudinary.com/)
+      ### [oauthplayground](https://developers.google.com/oauthplayground/)
+      ### [console.cloud.google.com](https://console.cloud.google.com/)
+      ### [cloud.mongodb.com](https://cloud.mongodb.com/)
+  
+
+  * .env
+    ```sh
+    MONGODB_URL = [your mongodb url]
+    G_CLIENT_ID= [your OAuth Client ID]
+    G_CLIENT_SECRET = [your OAuth Client secret]
+    G_REFRESH_TOKEN= [your refresh token]
+    ADMIN_EMAIL= [admin email]
+    ACTIVATION_TOKEN=1245$fvwhjj
+    REFRESH_TOKEN=1245$fvwhjjasdfse
+    ACCESS_TOKEN=asdasjdaiiiiaw$ggyuguguy
+    CLOUD_NAME= [your cloudinary Cloud Name]
+    CLOUD_API_KEY= [your cloudinary API Key]
+    CLOUD_SECRET_KEY= [your cloudinary API Secret]
+    ```
+
+6. Install the Dependencies to the Backend
 
 * cd
     ```sh
@@ -67,14 +89,14 @@ When the user login to the system, he or she can update Avatar, name, and passwo
     ```sh
     npm i express nodemon concurrently mongoose dotenv bcryptjs jsonwebtoken nodemailer googleapis cookie-parser multer cloudinary
     ```
-5. To run the Backend
+6. To run the Backend
 
 * npm
     ```sh
     npm run dev
     ```
     
-6. To run the Fronend
+7. To run the Fronend
 
 * npm
     ```sh
