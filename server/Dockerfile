@@ -1,12 +1,12 @@
-FROM node:14.17.3
-RUN mkdir -p /node-app
-WORKDIR /node-app
+FROM node:14.16.0-alpine3.10
 
-COPY ./package*.json //node-app
-RUN npm install
-COPY . /node-app
+WORKDIR /usr/app
 
-EXPOSE 8000
+COPY package*.json ./
+RUN npm install -qyg nodemon@2.0.15
+RUN npm install -qy
 
-CMD npm run start
+COPY . .
+
+CMD ["npm", "run", "dev"]
 
